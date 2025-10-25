@@ -10,11 +10,11 @@ import Login from './Pages/Login'
 
 
 export default function App() {
-  const r = window.location.pathname
+  const routeLogin = window.location.pathname
   return (
     <>
       {/* <SecondComponent/> */}
-     {r !== "/login" &&  <Navbar/>}
+     {routeLogin !== "/login" &&  <Navbar/>}
       {/* <TableComponent/> */}
       {/* <Getdata/> */}
       <Routes>
