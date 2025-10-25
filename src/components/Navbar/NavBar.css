@@ -1,0 +1,32 @@
+.navbar-background{
+    background-color: #FFA400;
+}
+.logo-img{
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+       
+@media screen and (min-width: 680px) {
+  .navbar
+    {
+   height: 4rem;
+  }
+}
+.color-contenaire{
+    background-color: #EEFDEF;
+}
+.text-color{
+    color:#FFA400
+}
+.card_chiffre{
+    border: none;
+    background-color: #EEFDEF;
+}  
+.color{
+    background-color: #FFA400;
+}
+.color-text{
+    color: #FFA400;
+}
